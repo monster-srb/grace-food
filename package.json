@@ -1,0 +1,24 @@
+{
+  "name": "grace-food",
+  "version": "1.0.0",
+  "description": "Official website of Grace Food",
+  "license": "ISC",
+  "author": "Sourov Biswas",
+
+  "scripts": {
+    "compile:scss:dev": "sass --watch ./src/scss/main.scss ./public/css/style.css",
+    "compile:scss:pro": "sass --style=compressed ./src/scss/main.scss ./public/css/style.min.css",
+    "minify:script": "webpack"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monster-srb/grace-food.git"
+  },
+
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
